@@ -98,24 +98,26 @@ footer {
 }
 
 header {
-    padding: 1.07rem;
+    padding-top: 40px;
 }
 
-nav a {
-    display: inline;
-    margin-right: 50px;
-    margin-left: 50px;
+div a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
 }
 
 #nav {
-    padding-bottom: 75px;
-    margin-bottom: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portraitpic {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 200px;
     padding-left: 25px;
 }
@@ -130,11 +132,6 @@ nav a {
 
 /* === Layout === */
 
-#nav a {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 #container {
     width: 1000px;
     margin: auto;
@@ -143,20 +140,18 @@ nav a {
 header {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    width: 1000px;
 }
 
 
 #logo {
-    padding: 30px;
-    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
     height: 100px;
-    align-items: center;
-    justify-content: center;
 }
 
 #splash {
@@ -172,6 +167,13 @@ header {
 #Contact {
     padding-left: 20px;
 }
+
+#SocialMedia {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* = Grid =*/
 header,
@@ -190,7 +192,7 @@ main {
     grid-column-end: 4;
 }
 
-.logo {
+#logo {
     grid-column-start: 2;
     grid-column-end: 3;
 }
