@@ -91,6 +91,20 @@ body {
 
 /* === Box model === */
 
+#Menu1, #Menu2{
+    height: auto;
+    width: auto;
+   margin: 20px;
+    
+}
+
+#Menus{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 #EventsPost {
     outline-style: none;
 }
@@ -170,6 +184,12 @@ header {
 
 /* === Layout === */
 
+#nav a {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
 #container {
     width: 1000px;
     margin: auto;
@@ -225,6 +245,10 @@ main {
     grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
+main2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 #splash {
     grid-column-start: 1;
     grid-column-end: 4;
