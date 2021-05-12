@@ -91,6 +91,23 @@ body {
 
 /* === Box model === */
 
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+#nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 #Menu1, #Menu2{
     height: auto;
     width: auto;
@@ -103,6 +120,7 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
 
 
 #EventsPost {
@@ -153,20 +171,6 @@ header {
     padding-top: 40px;
 }
 
-#nav a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 80px;
-    padding-left: 80px;
-}
-
-#nav {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .portraitpic {
     display: flex;
     align-items: center;
@@ -184,10 +188,27 @@ header {
 
 /* === Layout === */
 
+
+#nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #07f2f2;
+}
+
+main a:hover {
+    border: 1px solid #07f2f2;
+}
+
+#SocialMedia a:hover {
+    border-bottom: 1px solid #07f2f2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 #nav a {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 
 
 #container {
