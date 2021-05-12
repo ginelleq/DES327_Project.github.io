@@ -91,6 +91,19 @@ body {
 
 /* === Box model === */
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    float: left;
+}
+
 #EventsPost {
     outline-style: none;
 }
@@ -147,12 +160,6 @@ header {
     padding-left: 80px;
 }
 
-#nav {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .portraitpic {
     display: flex;
     align-items: center;
@@ -169,6 +176,10 @@ header {
 }
 
 /* === Layout === */
+
+a:hover {
+    background-color: green;
+}
 
 #container {
     width: 1000px;
