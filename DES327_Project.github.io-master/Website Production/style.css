@@ -91,18 +91,37 @@ body {
 
 /* === Box model === */
 
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0;
 }
 
-li {
-    float: left;
+#nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
+#Menu1, #Menu2{
+    height: auto;
+    width: auto;
+   margin: 20px;
+    
+}
+
+#Menus{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 
 #EventsPost {
     outline-style: none;
@@ -152,14 +171,6 @@ header {
     padding-top: 40px;
 }
 
-#nav a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 80px;
-    padding-left: 80px;
-}
-
 .portraitpic {
     display: flex;
     align-items: center;
@@ -177,9 +188,28 @@ header {
 
 /* === Layout === */
 
-a:hover {
-    background-color: green;
+
+#nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #07f2f2;
 }
+
+main a:hover {
+    border: 1px solid #07f2f2;
+}
+
+#SocialMedia a:hover {
+    border-bottom: 1px solid #07f2f2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#nav a {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
 
 #container {
     width: 1000px;
@@ -236,6 +266,10 @@ main {
     grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
+main2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 #splash {
     grid-column-start: 1;
     grid-column-end: 4;
