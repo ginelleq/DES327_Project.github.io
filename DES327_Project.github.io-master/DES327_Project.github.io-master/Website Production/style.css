@@ -128,11 +128,14 @@ ul {
 }
 
 #post1 {
-    height: auto;
+    height: 400px;
     width: auto;
     padding-left: 20px;
     padding-right: 20px;
     margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 
 #post2 {
