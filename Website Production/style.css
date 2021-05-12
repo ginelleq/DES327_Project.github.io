@@ -104,19 +104,25 @@ body {
 }
 
 #post2 {
-    height: auto;
+    height: 400px;
     width: auto;
     padding-left: 20px;
     padding-right: 40px;
     margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 
 #post3 {
-    height: 370px;
+    height: 400px;
     width: auto;
     padding-left: 20px;
     padding-right: 20px;
     margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 
 .SplashImg {
@@ -183,7 +189,7 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 125px;
 }
 
 #splash {
